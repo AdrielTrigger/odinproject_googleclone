@@ -7,31 +7,31 @@ body {
     text-align: right;
 }
 
-.top a {
+.top a { /* spacement between links on the top and underline removal */
     margin-left: 5px;
     margin-right: 5px;
     text-decoration-line: none;
-}
+} 
 
-.apps:hover {
+.apps:hover { /* I need to learn how to define transparency in a .png file */
     filter: brightness(30%);
 }
 
-.acc {
+.acc { /* style for the Sign In button; I'm not sure how it is written in the portuguese website */
     color: white;
     background-color: #4285f4;
     padding: 8px 12px;
     border-radius: 4px;
 }
 
-.core {
+.core { /* workaround for centering the core of the page (logo + search bar + buttons */
     text-align: center;
     margin: 15% auto;
     width: 450px;
     height: 300px;
 }
 
-form {
+form { /* needed to put some distance between this and the logo */
     margin-top: 10px;
 }
 
@@ -52,7 +52,9 @@ form {
     margin: auto 5px;
 }
 
-.footer {
+/* writing the code below almost killed me */
+
+.footer { /* somehow, with this, the footer sticks to the bottom of the page like it's supposed to */
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -60,7 +62,7 @@ form {
     left: 0;
 }
 
-.footer, .lastline{
+.footer, .lastline{ /* style just for the sake of similarity with the original page; doubtful levels of success :P */
     border-top: 1px solid rgb(65, 64, 64);
     color: rgb(65, 64, 64);
     background-color: rgb(168, 168, 168);
@@ -75,7 +77,7 @@ form {
     padding-bottom: 13px;
 }
 
-.left, .right {
+.left, .right { /* I guess this is supposed to keep the 6 last links aligned */
     display: inline-block;
 }
 
@@ -85,7 +87,7 @@ form {
     color: rgb(65, 64, 64);
 }
 
-.right {
+.right { /* not sure why text-align didn't work, even less sure why this did */
     float: right;
     padding-right: 10px;
 }
