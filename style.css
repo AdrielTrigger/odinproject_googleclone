@@ -1,0 +1,97 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.top {
+    text-align: right;
+}
+
+.top a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration-line: none;
+}
+
+.apps:hover {
+    filter: brightness(30%);
+}
+
+.acc {
+    color: white;
+    background-color: #4285f4;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.core {
+    text-align: center;
+    margin: 15% auto;
+    width: 450px;
+    height: 300px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+#searchbar {
+    margin-bottom: 10px;
+    width: 450px;
+    height: 35px;
+    font-size: 20px;
+    box-shadow: 2px 2px rgb(116, 116, 116);
+    border-radius: 10px;
+}
+
+.buttons {
+    font-size: 16px;
+    height: 36px;
+    width: 150px;
+    border-radius: 5px;
+    margin: auto 5px;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: gray;
+    left: 0;
+}
+
+.footer, .lastline{
+    border-top: 1px solid rgb(65, 64, 64);
+    color: rgb(65, 64, 64);
+    background-color: rgb(168, 168, 168);
+}
+
+.footer p, .left {
+    padding-left: 10px;
+}
+
+.lastline {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.left, .right {
+    display: inline-block;
+}
+
+.left a {
+    margin-right: 24px;
+    text-decoration-line: none;
+    color: rgb(65, 64, 64);
+}
+
+.right {
+    float: right;
+    padding-right: 10px;
+}
+
+.right a {
+    margin-left: 24px;
+    text-decoration-line: none;
+    color: rgb(65, 64, 64);
+}
